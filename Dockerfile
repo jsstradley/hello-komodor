@@ -1,2 +1,3 @@
-FROM komodor-rps
-CMD ./index.html
+FROM nginx  
+COPY . /usr/share/nginx/html
+
